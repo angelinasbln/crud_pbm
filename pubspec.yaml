@@ -1,0 +1,32 @@
+name: crud_pbm
+description: A new Flutter project for CRUD student management.
+publish_to: 'none' # Hapus baris ini jika ingin dipublikasikan ke pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Tambahkan dependensi database Flutter
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Aktifkan bagian ini jika kamu ingin menambahkan aset
+  # assets:
+  #   - assets/images/
