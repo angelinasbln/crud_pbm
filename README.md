@@ -1,16 +1,23 @@
-# crud_pbm
+# 📱 Aplikasi Manajemen Mahasiswa - CRUD Flutter + SQLite
 
-A new Flutter project.
+Aplikasi ini merupakan proyek Flutter sederhana untuk manajemen data mahasiswa dengan fitur login dan CRUD (Create, Read, Update, Delete) data secara offline menggunakan SQLite. Cocok untuk latihan atau tugas kuliah pemrograman mobile.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎯 Tujuan Aplikasi
 
-A few resources to get you started if this is your first Flutter project:
+- Mempelajari penggunaan **Flutter** untuk membangun aplikasi mobile.
+- Menggunakan **SQLite** untuk menyimpan data lokal tanpa internet.
+- Mengimplementasikan fitur **login**, **form input**, dan **navigasi antar halaman**.
+- Mengelola data mahasiswa seperti nama, email, jurusan, dan asal.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Fitur Utama
+
+- 🔐 Login Admin (username: `admin`, password: `password`)
+- 📋 Lihat daftar mahasiswa
+- ➕ Tambah data mahasiswa
+- 🖊️ Edit data mahasiswa
+- ❌ Hapus data mahasiswa
+- 💾 Penyimpanan lokal menggunakan **SQLite**
